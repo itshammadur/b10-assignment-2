@@ -1,0 +1,803 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "inter";
+  background-color: #131313;
+ 
+}
+
+.container{
+  width: 90%;
+  margin: 3rem auto;
+}
+
+
+/* nav related styles starts here */
+.nav-title h3{
+  color: #E6533C;
+  font-size: 800;
+  font-size: 2.2rem;
+  margin: 0;
+}
+#home{
+  color: white;
+  font-weight: 600;
+  padding: 8px 20px;
+  background-color: #E6533C;
+  border-radius: 30px;
+}
+.nav-menu{
+  display: flex;
+  align-items: center;
+  border: 1px dashed #424242;
+  padding: 10px;
+  gap: 60px;
+  border-radius: 30px;
+}
+
+.nav-menu li{
+color: #131313;
+font-size: 16px;
+font-weight: 500;
+cursor: pointer;
+list-style: none;
+color: #fff;
+
+}
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-menu #ham-barger{
+  display: none;
+}
+/* nav related styles ends here */
+
+
+
+    /* banner related styles starts here  */
+    .banner{
+      margin-top: 50px;
+    }
+  
+    .banner-content h3{
+      font-weight: 800;
+      font-size: 5rem;
+      color: #fff;
+      line-height: 1em;
+      margin: 0;
+    }
+    .banner-content h3 span{
+      font-family: "miama";
+      font-weight: normal;
+      font-size: 8rem;
+    
+    }
+    .banner-content p{
+      color: #FFFFFF80;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 30px;
+     
+ 
+    }
+    
+    .banner-content .btn-primary,.btn-secoendary{
+      padding: 1rem 2rem;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 2rem;
+      margin-left: 1rem;
+      cursor: pointer;
+ 
+     
+    }
+    .btn-secoendary{
+      background: transparent;
+      border: 2px solid gray;
+    }
+    .banner-img img{
+      width: 100%; 
+    }
+    
+  
+    .banner-container{
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     align-items: center;
+     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+     gap: 10rem;
+     
+     
+    }
+    .banner-img{
+      position: relative;
+    }
+    .tutorial h3{
+      font-size: 2rem;
+      font-weight: 600;
+      color: white;
+      text-align: left;
+      margin: 0;
+    }
+   
+    .tutorial{
+      background-color: #FFFFFF1A;
+      border: none;
+      border-radius: 10px;
+
+      position: absolute;
+
+    }
+    
+     .banner-img #surcle{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #E6533C;
+     
+    }
+    .btn-1{
+      left: -3rem;
+      bottom: 8rem;
+    
+    }
+    .btn-2{
+     bottom: 520px;
+    right: -10px;
+     padding: 
+      10px 16px;
+    }
+    .btn-2 p{
+       color: #EFEDE8A6;
+      font-size: 16px;
+      margin: 0;
+    }
+  
+    #btn-1-child{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+       padding: 
+      10px 16px;
+    }
+    #btn-1-child p{
+      color: #EFEDE8A6;
+      font-size: 16px;
+      margin: 0;
+    }
+
+   /* banner related styles ends here  */
+
+   /* change your habit section starts here */
+   .your-habit h3{
+     font-weight: 800;
+      font-size: 3rem;
+      color: #fff;
+      margin: 0;
+      text-align: center;
+
+   }
+   .your-habit p{
+    color: #FFFFFF80;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      text-align: center;
+   }
+
+   .habit-container .img h3{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+   }
+   .habit-container .img p{
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #424242;
+    text-align: center;
+   }
+   .habit-container .img{
+    width: 200px;
+    margin: 0 auto;
+   }
+   .habit-container .img img{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+  .habit-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+  }
+  /* change your habit section ends here */
+  
+   /* run-extra-mile section starts here */
+   .join-btn{
+    padding: 1rem 2rem;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 2rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+      margin-top: 20px;
+   }
+
+   .run-content h3{
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 800;
+    margin-bottom: 10px;
+   }
+   .run-content p{
+     font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #424242;
+    margin-bottom: 10px;
+   }
+   .run-content,.run-img{
+    width: 40%;
+   }
+
+   .run-img img{
+    width: 100%;
+    border-radius: 20px;
+   }
+   .run-extra-mile-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 15px;
+   }
+   /* run-extra-mile section ends here */
+
+
+   /* get ready section starts here */
+   .get-ready-img{
+     display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(../images/instrument-1.jpg);
+    
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 413px;
+     border-radius: 10px;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: overlay;
+   }
+
+  
+   .get-ready-img h3{
+    
+    color: aqua;
+    opacity: 0.5;
+    font-size: 3rem;
+   
+   }
+   /* get ready section starts here */
+
+  /* instrument related styles starts here */
+  .instrument{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .instrument h2{
+    color: #ff3838;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 30px;
+  }
+  .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 100px; 
+  }
+  .blok{
+    height: 330px;
+    border-radius: 10px;
+    position: relative; 
+  }
+ .blok img ::before{
+    
+   content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+ background-color: rgba(10, 10, 10, 0.2);
+ 
+  }
+  .blok img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+  }
+  .blok h4{
+    color: #E6533C;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .blok p{
+    color: #424242;
+    
+  }
+  
+  /* instrument related styles ends here */
+
+   /* training section starts here */
+   .exercise h3{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: left;
+   }
+   .exercise p{
+     font-size: 16px;
+    font-weight: normal;
+    margin-top: 10px;
+    color: #424242;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-bottom: 50px;
+
+   }
+   
+   .box img{
+    width: 100%;
+    height: 100%;
+    
+    
+   }
+   .row-1{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.6fr;
+    
+   
+  
+   
+   }
+   .box-1, .box-2, .box-3{
+    position: relative;
+   }
+   .box-1 h5{
+   position: absolute;
+   bottom: 5px;
+   left: 20px;
+   }
+   .box-2 h5{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+   }
+   .box-3 h5{
+    position: absolute;
+    bottom: 5px;
+   left: 20px;
+   }
+  .box-1{
+    background-color: rgba(6, 255, 210, 0.9);
+  }
+  .box-1::before{
+  
+   content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+ background: rgba(6, 255, 210, 0.4);
+}
+.box-2::before{
+ 
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+  background: #FF00004D;
+}
+.box-3::before{
+  
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+  background:#00000080;
+}
+
+.row-2{
+  grid-template-columns: 1fr 0.7fr 0.8fr;
+}
+.box-4::before{
+ background-color: #00000080; 
+ content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  
+}
+.box-5::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #42FF004D;
+}
+.box-6::before{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #0047FF4D;
+}
+.box-4 h5{
+  top: 10px;
+  left: 270px;
+  
+}
+.box-5 h5{
+  position: absolute;
+  top:170px;
+ 
+}
+   /* training section ends here */
+
+
+
+   /* BMI calculator section styles starts here  */
+ /* BMI section start */
+.bmi-container{  
+  background-color: #222222;
+  padding-top: 5px ;
+  padding-bottom: 30px;
+}
+
+/* BMI section design */
+table{
+  border-collapse: collapse;
+
+}
+thead th{
+  color: #FFFFFF;
+}
+  th, td{
+border: 1px solid gray;
+
+padding: 20px;
+text-align: left;
+color:  #FFFFFF80;
+}
+.bmi-table h3{
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding-bottom: 3rem;
+  
+  
+ 
+}
+/* bmi calculate related styles here */
+.bmi-calculator h3{
+   font-size: 1.5rem;
+  font-weight: 800;
+  color:#FAFAF9;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.bmi-calculator p{
+   font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF80;
+  margin-bottom: 50px;
+}
+.bmi-table{
+  
+  padding-left: 50px;
+}
+
+.bmi-content{
+ 
+  display: grid;
+  grid-template-columns:repeat(2, 1fr);
+  gap: 170px;
+}
+.bmi-chart input[type="text"]{
+  padding: 12px;
+  font-size: 16px;
+  color: #FFFFFF99;
+  border-radius: 5px;
+  border: none;
+ 
+  background-color:rgba(255, 255, 255, 0.1);
+  
+}
+.bmi-chart select{
+  padding: 12px;
+  border: none;
+  color: #FFFFFF99;
+  border-radius: 5px;
+  background-color:  rgba(255, 255, 255, 0.1);
+  
+}
+
+form{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+#factor {
+grid-column: span 2;
+ margin-bottom: 2rem;
+}
+.math-btn{
+  padding: 1rem 2rem;
+      background-color: #E6533C;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+      border: none;
+      border-radius: 2rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+}
+   /* BMI calculator section styles ends here  */
+
+   /* our team section starts here */
+   .our-team h3{
+    font-size: 3rem;
+    color: #FFFFFF;
+    font-weight: 800;
+    text-align: center;
+    
+   }
+   .our-team p{
+    font-size: 16px;
+    font-weight: normal;
+    color: #424242;
+    text-align: center;
+    margin-top: 20px;
+   }
+
+   .our-team-container{
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    
+   }
+   .img-row-1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 10px;
+    
+   }
+   .img-row-1 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+   
+   }
+  
+   
+
+   /* .img-row-1 :nth-child(1), 
+   .trainer-box{
+    position: relative;
+    
+   }
+  
+ 
+   .img-row-1 :nth-child(1) h6 {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+     
+  
+
+   }
+   .img-row-1 :nth-child(1) p{
+    position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 12px;
+
+   }
+    .img-row-1 :nth-child(2){
+    position: relative;
+   }
+
+   .img-row-1 :nth-child(2) h6{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+   }
+   .img-row-1 :nth-child(2) p{
+     position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: #131313;
+    font-weight: 600;
+    font-size: 12px;
+   }
+   .img-row-1 .trainer-box ,:nth-child(3){
+    position: relative;
+     
+   }
+   .img-row-1 :nth-child(3) h6{
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+   }
+   .img-row-1 :nth-child(3) p{
+     position: absolute;
+      bottom: 10px;
+    left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    
+    
+   } */
+   
+   
+   
+   
+   .trainer-box{
+     position: relative;
+    }
+    .trainer-box h6{
+      position: absolute;
+    bottom: 30px;
+    left: 10px;
+    color: white;
+}
+.trainer-box p{
+   position: absolute;
+      bottom: 10px;
+    left: 10px;
+    color: aqua;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+
+.img-row-1 .trainer-box::before{
+     content: "";
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.2);
+}
+   /* our team section ends here */
+
+
+   /* footer section starts here */
+  .footer-container{
+    background-color: #FFFFFF1A;
+     background-attachment: fixed;
+    padding: 2rem 0;
+  }
+  .footer-content{
+  display: flex;
+  justify-content: space-between;
+   
+  }
+  .footer-title{
+    width: 40%;
+    
+  }
+  .footer-title h3{
+    text-align: left;
+  }
+ 
+  .get-started{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+  }
+  .get-started h4{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  #footer-description {
+    color: #FFFFFF80;
+    line-height: 1.5em;
+    margin-top: 20px;
+    text-align: left;
+    
+  }
+  
+  .get-started a{
+    color: #FFFFFF80;
+    text-decoration: none;
+    font-weight: 500;
+  }
+ 
+  .get-started a:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.3s ease;
+  }
+  .footer-container hr{
+    border: 2px solid #E6533C;
+    width: 90%;
+    margin: 2rem auto;
+  }
+  .footer-container p{
+    color: #FFFFFF80;
+    text-align: center;
+    font-size: 12px;
+    text-align: center;
+  }
+    
+
+
+   /* footer section ends here */
+   
